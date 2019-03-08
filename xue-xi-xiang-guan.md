@@ -14,7 +14,7 @@
 
 #### **b.前端使用:**
 
-**1.用img标签显示:`<img src="http://{url}:9011/captcha">`**
+**1.用img标签显示:**`<img src="http://{url}/captcha">`
 
 **2.getCookie\('captcha'\)获取服务器传的验证码.**
 

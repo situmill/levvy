@@ -14,9 +14,9 @@
 
 ##### 8.清理dns 缓存:ipconfig /flushdns
 
-##### 9.Linux里设置环境变量的方法：export PATH=$PATH:/root/web 
+##### 9.Linux里设置环境变量的方法：export PATH=$PATH:/root/web
 
-##### 10.显示当前PATH环境变量:echo $PATH 
+##### 10.显示当前PATH环境变量:echo $PATH
 
 ##### 11.创建数据库：create database xxx
 
@@ -28,7 +28,7 @@
 
 ##### 或
 
-##### a.ALTER TABLE tbl\_name ADD INDEX index\_name \(column\_list\); 
+##### a.ALTER TABLE tbl\_name ADD INDEX index\_name \(column\_list\);
 
 ##### b.CREATE UNIQUE INDEX index\_name ON table\_name \(column\_name\)
 
@@ -38,33 +38,31 @@
 
 ##### 15.数据库创建表：
 
-#####  CREATE TABLE pet\_data\(
+##### CREATE TABLE pet\_data\(
 
-#####    pet\_data\_id bigint\(20\) NOT NULL AUTO\_INCREMENT,
+##### pet\_data\_id bigint\(20\) NOT NULL AUTO\_INCREMENT,
 
-#####    uuid VARCHAR\(64\) NOT NULL,
+##### uuid VARCHAR\(64\) NOT NULL,
 
-##### 	 name VARCHAR\(64\) NOT NULL UNIQUE,
+##### name VARCHAR\(64\) NOT NULL UNIQUE,
 
-#####    start\_time bigint\(20\) NOT NULL,
+##### start\_time bigint\(20\) NOT NULL,
 
-##### 	 end\_time bigint\(20\) NOT NULL,
+##### end\_time bigint\(20\) NOT NULL,
 
-#####    stay\_time bigint\(20\) NOT NULL,
+##### stay\_time bigint\(20\) NOT NULL,
 
-##### 	 visits int  DEFAULT 1,
+##### visits int  DEFAULT 1,
 
-##### 	 time datetime  DEFAULT CURRENT\_TIMESTAMP,
+##### time datetime  DEFAULT CURRENT\_TIMESTAMP,
 
-##### 	 CONSTRAINT u\_time UNIQUE \(uuid,start\_time\),
+##### CONSTRAINT u\_time UNIQUE \(uuid,start\_time\),
 
-##### 	 unique \(name\),
+##### unique \(name\),
 
-#####    PRIMARY KEY \( pet\_data\_id \)
+##### PRIMARY KEY \( pet\_data\_id \)
 
-#####    \)ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-#####    
+##### \)ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ##### 16.修改字段名：ALTER TABLE video\_square CHANGE name name text NOT NULL;
 

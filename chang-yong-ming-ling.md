@@ -40,9 +40,9 @@
 
 ##### CREATE TABLE pet\_data\(
 
-#####         pet\_data\_id bigint\(20\) NOT NULL AUTO\_INCREMENT,
+##### &\#8194;pet\_data\_id bigint\(20\) NOT NULL AUTO\_INCREMENT,
 
-#####         uuid VARCHAR\(64\) NOT NULL,
+##### uuid VARCHAR\(64\) NOT NULL,
 
 ##### name VARCHAR\(64\) NOT NULL UNIQUE,
 

@@ -6,11 +6,11 @@
 
 **2.$ npm install cookie-parser（保存到cookie中）**
 
-**3.相关代码:图1**
+**3.相关代码:图x1**
 
 #### 图x1
 
-![](/assets/图1.png)
+
 
 #### **b.前端使用:**
 

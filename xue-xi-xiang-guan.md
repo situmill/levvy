@@ -6,7 +6,7 @@
 
 **2.$ npm install cookie-parser（保存到cookie中）**
 
-**3.相关代码:图x1**
+**3.重要代码:图x1**
 
 #### 图x1
 

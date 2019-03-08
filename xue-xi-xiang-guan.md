@@ -8,9 +8,13 @@
 
 **3.相关代码:图1**
 
+图1
+
+![](/assets/图1.png)
+
 **b.前端使用:**
 
-**1.用img标签显示:&lt;img src="http://{url}:9011/captcha"&gt;**
+**1.用img标签显示:&lt;img src="**[http://{url}:9011/captcha"](http://{url}:9011/captcha"&gt)**;**
 
 **2.getCookie\('captcha'\)获取服务器传的验证码.**
 
